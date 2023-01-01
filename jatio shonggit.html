@@ -78,9 +78,9 @@
     <label for="">Pik a date</label>
     <input type="date">
     <br><br>
-    <input type="radio"> Bus
-    <input type="radio"> Train
-    <input type="radio"> Launch
+    <input type="radio" name="action" id="bus" value="bus"><label for="bus">Bus</label>
+    <input type="radio" name="action" id="train" value="train"><label for="train">Train</label> 
+    <input type="radio" name="action" id="launch" value="launch"><label for="launch">Launch</label> 
     <br> <br>
     <select name="" id="">
         <option value="Select">Select</option>
@@ -95,6 +95,13 @@
     <br><br>
     <button>Submit</button>
     <button>Cancel</button>
+    <br><br>
+    <fieldset style="border: none;">
+        <p>Please select one of the following</p>
+        <input type="radio" name="action" id="track" value="track" /><label for="track">Track Submission</label><br />
+        <input type="radio" name="action" id="event" value="event"  /><label for="event">Events and Artist booking</label><br />
+        <input type="radio" name="action" id="message" value="message" /><label for="message">Message us</label><br />
+    </fieldset>
     <p>The order list of class room students</p>
     <ol>
         <li>first student</li>
